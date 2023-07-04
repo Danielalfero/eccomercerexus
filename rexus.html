@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RexusOnlineShop</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<!--NAV AWAL-->
+	<header>
+		<nav class="navbar">
+			<img src="gambar/rexusLogo2.png">
+			<ul>
+				<li class="home"><a href="#">Home</a></li>
+				<li class="product"><a href="#">Product</a></li>
+				<li class="service"><a href="#">Service</a></li>
+				<li class="support"><a href="#">Support</a></li>
+				<li class="news"><a href="#">News</a></li>
+				<li class="ofcstore"><a href="#">Official Store</a></li>
+				<li class="about"><a href="#">About</a></li>
+				<li class="contatc"><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<!--NAV AKHIR-->
+	<section class="section1" id="home">
+		<img src="gambar/rexus1.png" id="image">
+		<main class="content1">
+			<h1>Rexus <br><span class="vonix">Vonix </span><span class="f30">F30.</span></h1>
+			<p>
+				Rexus gaming headset Vonix F30 is a headset intended for PC game players. This headset comes with a simple, compact design, and prioritizes usability. Another advantage is that this headset maintains durability like other types of Rexus headsets that have been widely used in various game centers. Looking tough, the Vonix F30 doesn't put aside its main function as a sound producer, with detailed sound and a wide range, like the characteristics of gaming headsets in general.
+			</p>
+		</main>
+		<div class="learnmore">
+			<p>Learn More</p>
+		</div>
+
+		<div class="choosestyle">
+			<h3>Choose your style</h3>
+		</div>
+
+		<div class="colour-select">
+			<div onclick="changeImageBlack()" id="black"></div>
+			<div onclick="changeImagePink()" id="pink"></div>
+			<div onclick="changeImageWhite()" id="white"></div>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+		
+
+		function changeImagePink(){
+			var img = document.getElementById('image');
+			img.src = 'gambar/rexus2.png';
+		}
+		function changeImageBlack(){
+			var img = document.getElementById('image');
+			img.src = 'gambar/rexus1.png';
+		}
+		function changeImageWhite(){
+			var img = document.getElementById('image');
+			img.src = 'gambar/rexus3.png';
+		}
+	</script>
+</body>
+</html>
